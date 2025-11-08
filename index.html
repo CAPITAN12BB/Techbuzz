@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>سایت کسب درآمد من</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>سایت من — کسب درآمد از بازدید</h1>
+      <p>محتوا، بررسی محصولات و لینک‌های پیشنهادی</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h2>خوش آمدی!</h2>
+      <p>این یک نمونه سایت رایگان است. می‌توانی تبلیغات، لینک‌های افیلیت و دکمهٔ پرداخت را اضافه کنی.</p>
+      <div class="actions">
+        <a class="btn" href="#products">محصولات پیشنهادی</a>
+        <a class="btn ghost" href="#support">حمایت مالی</a>
+      </div>
+    </section>
+
+    <section id="products" class="cards">
+      <article class="card">
+        <h3>محصول نمونه</h3>
+        <p>توضیح کوتاه درباره محصولی که معرفی می‌کنی.</p>
+        <!-- نمونه لینک افیلیت -->
+        <a class="small-btn" href="https://www.example.com/?ref=AFFILIATE_ID" target="_blank" rel="noopener">خرید (افیلیت)</a>
+      </article>
+
+      <article class="card">
+        <h3>تبلیغات</h3>
+        <p>جایگاه تبلیغات: کد AdSense یا هر شبکهٔ دیگر را اینجا قرار بده.</p>
+        <div class="ad-placeholder">Ad placeholder</div>
+      </article>
+    </section>
+
+    <section id="support" class="support">
+      <h3>حمایت مالی / پرداخت</h3>
+      <p>برای پرداخت سریع می‌توانی از خدماتی مثل PayPal / Buy Me a Coffee استفاده کنی یا بعداً Stripe را وصل کنی.</p>
+      <!-- نمونه دکمه پرداخت ساده (PayPal لینک مثال) -->
+      <a class="btn" href="https://www.paypal.com/paypalme/YOURNAME" target="_blank" rel="noopener">حمایت از من (PayPal)</a>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> — All rights reserved.</p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
